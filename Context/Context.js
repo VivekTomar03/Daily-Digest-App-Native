@@ -24,6 +24,7 @@ const Context = ({ children }) => {
     try {
       const { data } = await axios.get(getSourceAPI(source));
       setNews(data);
+      console.log(data)
       setIndex(1);
     } catch (error) {
       console.log(error);

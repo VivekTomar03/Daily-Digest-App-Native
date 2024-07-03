@@ -4,10 +4,10 @@
     "slug": "Daily-Digest",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/DD.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/DD.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/DD.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vivek007003.DailyDigest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2a09b4aa-f092-431b-9f43-b4595011e7f3"
+      }
     }
   }
 }
