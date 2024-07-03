@@ -2,7 +2,6 @@ import axios from "axios";
 import React, { createContext, useEffect, useState } from "react";
 import { getNewsAPI, getSourceAPI } from "./Api";
 
-
 export const NewsContext = createContext();
 
 const Context = ({ children }) => {
@@ -11,29 +10,35 @@ const Context = ({ children }) => {
   const [source, setSource] = useState();
   const [index, setIndex] = useState(1);
   const [darkTheme, setDarkTheme] = useState(true);
-
+  const [loading, setLoading] = useState(false);
   const fetchNews = async (reset = category) => {
-   
+    setLoading(true)
+   try {
     setIndex(1);
     const { data } = await axios.get(getNewsAPI(reset));
     setNews(data);
-    // console.log(data)
+    setLoading(false)
+   } catch (error) {
+    setLoading(false)
+    console.log(error, error?.message)
+   }
   };
 
   const fetchNewsfromSource = async () => {
+    setLoading(true)
     try {
       const { data } = await axios.get(getSourceAPI(source));
       setNews(data);
-      console.log(data)
+       setLoading(false)
       setIndex(1);
     } catch (error) {
-      console.log(error);
+      console.log(error, error?.message);
+      setLoading(false)
     }
   };
 
   useEffect(() => {
-    console.log(category, "category chnaged")
-   
+    console.log(category, "category changed");
     fetchNews();
   }, [category]);
 
@@ -52,7 +57,8 @@ const Context = ({ children }) => {
         darkTheme,
         setDarkTheme,
         fetchNews,
-        category
+        category,
+        loading, 
       }}
     >
       {children}

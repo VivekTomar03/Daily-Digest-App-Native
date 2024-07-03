@@ -12,11 +12,16 @@ import Carousel from 'react-native-reanimated-carousel';
 import SingleNews from "../Components/SingleNews";
 import { NewsContext } from "../Context/Context";
 import { useSharedValue } from "react-native-reanimated";
+import LoadingState from "../Components/LoadingState";
+import EmptyState from "../Components/EmptyData";
+
+
 
 const NewsScreen = () => {
   const {
     news: { articles },
     darkTheme,
+    loading
   } = useContext(NewsContext);
 
   const [activeIndex, setActiveIndex] = useState();
@@ -38,6 +43,13 @@ const NewsScreen = () => {
     width: windowWidth,
     height: PAGE_WIDTH / 2,
   } 
+
+  if(loading) {
+   return  <LoadingState />
+  }
+  if(articles?.length ===0 ){
+    return <EmptyState />
+  }
   return <View style={styles.carousel}>
      {articles && (
            <Carousel

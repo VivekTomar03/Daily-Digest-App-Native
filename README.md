@@ -29,8 +29,6 @@ Daily Digest uses the [News API](https://documenter.getpostman.com/view/3479169/
 ## Remaining Tasks
 
 - **Get News by Country**: Filter news articles by country.
-- **Loading Indicator**: Show a loading indicator while fetching news articles.
-- **Empty State**: Display an empty state when no articles are available.
 - **Improve Splash Screen and App Logo**: Enhance the splash screen and app logo for a better user experience.
 
 ## Installation

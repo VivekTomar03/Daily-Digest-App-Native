@@ -4,7 +4,7 @@
     "slug": "Daily-Digest",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/DD.png",
+    "icon": "./assets/adptivedd.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/DD.png",
@@ -16,7 +16,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/DD.png",
+        "foregroundImage": "./assets/adptivedd.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.vivek007003.DailyDigest"
