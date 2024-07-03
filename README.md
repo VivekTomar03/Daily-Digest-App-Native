@@ -6,14 +6,12 @@ Welcome to **Daily Digest**, a React Native Expo news app that keeps you informe
 
 - **Top Headlines**: Stay updated with the top headlines from around the world.
 - **Discover News**: Explore news articles across different categories including General, Business, Entertainment, Health, Science, Technology, and Sports.
-- **News by Creator**: Find news articles from your favorite creators.
 - **Multiple News Sources**: Get news from reliable sources like BBC News, CNN, Fox News, and Google News.
 - **Dark/Light Mode**: Switch between dark and light modes for a comfortable reading experience.
 - **Refresh News**: Easily refresh the news feed to get the latest updates.
 - **Search Functionality**: Search for specific news articles by keywords.
-- **Save Articles**: Bookmark articles to read later.
-- **Share Articles**: Share news articles with your friends and family directly from the app.
-- **User Profile**: Manage your preferences and saved articles in your user profile.
+
+
 
 ## Screens
 
@@ -80,4 +78,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 - **React Native Expo**: [https://expo.dev/](https://expo.dev/)
 - **All news sources**: BBC News, CNN, Fox News, Google News, and others.
 
----
+
