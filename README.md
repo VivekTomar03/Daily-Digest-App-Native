@@ -1,6 +1,6 @@
 # Daily Digest - React Native Expo News App
 
-Welcome to **Daily Digest**, a React Native Expo news app that brings you the latest headlines and news articles from various sources, all in one place.
+Welcome to **Daily Digest**, a React Native Expo news app that keeps you informed with the latest headlines and news articles from various sources, all in one convenient place.
 
 ## Features
 
@@ -10,6 +10,10 @@ Welcome to **Daily Digest**, a React Native Expo news app that brings you the la
 - **Multiple News Sources**: Get news from reliable sources like BBC News, CNN, Fox News, and Google News.
 - **Dark/Light Mode**: Switch between dark and light modes for a comfortable reading experience.
 - **Refresh News**: Easily refresh the news feed to get the latest updates.
+- **Search Functionality**: Search for specific news articles by keywords.
+- **Save Articles**: Bookmark articles to read later.
+- **Share Articles**: Share news articles with your friends and family directly from the app.
+- **User Profile**: Manage your preferences and saved articles in your user profile.
 
 ## Screens
 
@@ -21,6 +25,17 @@ Welcome to **Daily Digest**, a React Native Expo news app that brings you the la
 2. **News Details Screen**
    - Detailed view of the selected news article.
    - Dynamic background image based on the article's content.
+   - Option to save and share the article.
+
+3. **Search Screen**
+   - Search for news articles by keywords.
+   - Filter results by date, category, and source.
+
+4. **Saved Articles Screen**
+   - View and manage your saved articles.
+
+5. **Profile Screen**
+   - Manage your user profile, preferences, and saved articles.
 
 ## API
 
@@ -30,6 +45,7 @@ Daily Digest uses the [News API](https://documenter.getpostman.com/view/3479169/
 
 - **Get News by Country**: Filter news articles by country.
 - **Improve Splash Screen and App Logo**: Enhance the splash screen and app logo for a better user experience.
+- **Push Notifications**: Notify users of breaking news and top headlines.
 
 ## Installation
 
@@ -50,13 +66,13 @@ Daily Digest uses the [News API](https://documenter.getpostman.com/view/3479169/
    expo start
    ```
 
+## APK Download
+
+You can download the APK file for Daily Digest [here](https://drive.google.com/file/d/1sdPFYb7y5ufIi5D9rD170Sc17ToAnDlL/view?usp=drive_link).
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or new features.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Acknowledgments
 
@@ -64,4 +80,4 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 - **React Native Expo**: [https://expo.dev/](https://expo.dev/)
 - **All news sources**: BBC News, CNN, Fox News, Google News, and others.
 
-
+---
