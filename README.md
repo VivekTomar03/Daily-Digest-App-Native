@@ -18,22 +18,12 @@ Welcome to **Daily Digest**, a React Native Expo news app that keeps you informe
 1. **Home Screen**
    - Displays top headlines.
    - Discover news by categories.
-   - News by creators.
+   - Search for specific news articles by keywords.
 
 2. **News Details Screen**
    - Detailed view of the selected news article.
-   - Dynamic background image based on the article's content.
-   - Option to save and share the article.
-
-3. **Search Screen**
-   - Search for news articles by keywords.
-   - Filter results by date, category, and source.
-
-4. **Saved Articles Screen**
-   - View and manage your saved articles.
-
-5. **Profile Screen**
-   - Manage your user profile, preferences, and saved articles.
+   - Dynamic image based on the article's content.
+   
 
 ## API
 
